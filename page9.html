@@ -1,26 +1,97 @@
-<html>
-  <head><link rel="stylesheet" href="styles.css" type="text/css"></head>
-  <h8>Academic Qualifications</h8>
-   <body>
-     
-     <table>
-       <tr><th>S.no</th><th>Semester</th><th>SGPA</th><th>Credits</th></tr>
-       <tr><td>1</td><td>1</td><td>7.4</td><td>17</td></tr>
-       <tr><td>2</td><td>2</td><td>7.7</td><td>23</td></tr>
-       <tr><td>3</td><td>3</td><td>8</td><td>22</td></tr>
-       <tr><td>4</td><td>4</td><td>7.85</td><td>23</td></tr>
-     </table>
-  <h9>Technical Expertise</h9>
-     <ul>
-       <li>Html & CSS</li>
-       <li>Python</li>
-       <li>Power Bi</li>
-       <li>Basics of weka</li>
-       <li>Basics of javascript</li>
-     </ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Semester Performance</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f8fb;
+      padding: 30px;
+      color: #333;
+    }
 
-     <a href=page8.html>Page3</a>
-     <a href=page10.html>Page5</a>
-    
-   </body>
+    h2 {
+      color: #1e3d59;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+
+    table {
+      width: 60%;
+      margin: 0 auto 20px;
+      border-collapse: collapse;
+      background-color: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #e0e7ef;
+    }
+
+    .summary {
+      text-align: center;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+
+    .summary strong {
+      color: #1e3d59;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Semester-wise Academic Performance</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>S.No</th>
+        <th>Semester</th>
+        <th>SGPA</th>
+        <th>Credits</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>1</td>
+        <td>8.47</td>
+        <td>17</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>2</td>
+        <td>9.02</td>
+        <td>23</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>3</td>
+        <td>8.20</td>
+        <td>22</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>4</td>
+        <td>8.45</td>
+        <td>22</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="summary">
+    <p><strong>CGPA:</strong> 8.55</p>
+    <p><strong>Total Credits:</strong> 84</p>
+  </div>
+
+</body>
 </html>
