@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            margin: auto;
+            background-color: #fff;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 8px 12px;
+            text-align: center;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        caption {
+            caption-side: top;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        tfoot td {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Semester-wise SGPA</caption>
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Semester</th>
+                <th>SGPA</th>
+                <th>Credits</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>8.47</td>
+                <td>17</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>2</td>
+                <td>9.02</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>3</td>
+                <td>8.20</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>4</td>
+                <td>8.45</td>
+                <td>22</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">CGPA</td>
+                <td colspan="2">8.55</td>
+            </tr>
+            <tr>
+                <td colspan="2">Total Credits</td>
+                <td colspan="2">84</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
